@@ -1,0 +1,235 @@
+body {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333333;
+    background: #eeeeee;
+    background-image: url("../img/paw-pattern_2.png");
+    background-repeat: repeat;
+}
+
+/* Верхний отступ */
+.top-indent {
+    height: 10px;
+    margin: 0 auto;
+    background: transparent;
+}
+
+/* Обертка */
+#wrapper {
+    margin: 0 auto;
+    position: relative;
+    max-width: 900px;
+    background: #fff;
+    text-align:left;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+/* Выпадающее меню со списком */
+#bar {
+    top: -160px; left: 700px;
+    padding: 10px;
+    position: absolute;
+    width: 150px;
+    background: #6666ff;
+    color: #fff;
+    transition: top 0.5s ease-out 0.1s;
+    list-style: none;
+}
+#bar:hover { top: 0; }
+
+/* Заголовок 1 */
+
+@font-face {
+font-family: 'Blacktear script';
+src: url("../fonts/Blacktear_script.otf");
+}
+
+h1 {
+    font-family: 'BLACKTEAR SCRIPT script';
+    font-size: 60px;
+    text-align: center;
+    color: #ff6666;
+    padding: 20px 0 20px 0;
+}
+
+/* Свойства word-spacing и letter-spacing в Заголовках 3 */
+h3 {
+    font-size: 24px;
+    color: #00cccc;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 10px; 
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    padding: 20px 0 15px 0;
+}
+
+/* Параграфы с абзацем */
+p {
+    padding: 5px 0 0 0;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+ol {
+    text-align: justify;
+}
+
+/* Стиль выделения текста */
+p::selection {
+    color: #ff6666;
+    background: #eeeeee;
+}
+
+/* Стиль цитат */
+blockquote {
+    height: 100%;
+    color: #666666;
+    font-size: 18px;
+    font-style: italic;
+    text-align: right;
+    border-right: 2px solid #6666ff;
+    padding: 10px 20px 10px 10px;
+}
+
+blockquote::before {
+    color: #666666;
+    padding-right: 5px;
+    content: "\201E";
+    line-height: 0px; 
+    font-weight: normal;
+    }
+        
+blockquote::after {
+    color: #666666;
+    padding-left: 5px;
+    line-height: 0px;
+}
+
+blockquote::first-line {
+    color: #cc6666;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Стили Интересных фактов */
+.interesting-facts-item:not(:last-child) {
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #999999; 
+}
+
+.interesting-facts-item:not(:first-child) {
+    padding-top: 10px;
+}
+
+.interesting-facts-item::first-letter {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00cccc;
+}
+
+/* Применяю object-fit к изображению */
+.image-container {
+    max-width: 900px;
+    min-height: 600px;
+    object-fit: scale-down;
+    font-size: 16px;
+    font-weight: 300;
+    color: #999999;
+    text-align: center;
+}
+
+/* Стили в разделе Разновидностей породы */
+.poodle-breed {
+    padding: 10px 0 10px 40px;
+    }
+
+.poodle-breed-list {
+    list-style: none;
+    }
+
+.poodle-breed-item::before {
+        content: "\2764"; /* Большое сердце */
+        color: #ff6666;
+        padding-right: 5px;
+    }
+
+/* Раздел Окрасы породы */
+.coat-color-item {
+    padding-left: 30px;
+}
+
+/* Скрытый текст под списком */
+.button {
+    list-style: none;
+    display: inline-block;
+}
+
+.descr { 
+    list-style: none;
+    visibility: hidden;
+    text-indent: -30px;
+    font-size: 16px;
+    color: #999999;
+}
+
+.button:hover + .descr {
+    visibility: visible;
+}
+
+
+/* Стили в подразделе Груминг */
+.fur-care-list{
+    list-style: none;
+}
+
+.fur-care-item::before {
+    content: "\2714"; /* Жирная галочка */
+    color: #00cccc;;
+    padding-right: 5px;
+    }
+    .fur-care {
+        padding: 10px 0 10px 40px;
+    }
+
+.haircuts-list {
+    list-style: none;
+}
+.haircuts-item::before {
+    content: "\2702"; /* Ножницы */
+    color: #00cccc;;
+    padding-right: 5px;
+}
+
+/* Стили ссылок */
+a:link {
+    color: #6666ff; 
+    padding: 2px;
+}
+a:hover {
+    background: #00cccc;
+    color: #ff6666;
+}
+
+.word-wrap-examples {
+    background: #ffcccc;
+    width: 150px;
+    padding: 10px;
+    font-size: 24px;
+    word-wrap: break-word;
+}
+
+/* Нижний отступ */
+.bottom-indent {    
+    height: 10px;
+    margin: 0 auto;
+    background: transparent;
+}
