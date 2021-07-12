@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 7.2 (z-index property)</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+        }
+
+        .block-1 {
+            width: 500px;
+            height: 200px;
+            border: 2px solid #fff;
+            box-sizing: border-box;
+            background: #ffcc33;                      
+            position: absolute;            
+            z-index: 4;         
+        }
+
+        .block-2 {
+            background: #3366ff;
+            z-index: 2;            
+            left: 250px;
+        }
+
+        .block-3 {
+            background: #33cc00;
+            z-index: 1;
+            top: 100px;
+        }
+
+        .block-4 {
+            background: #ff6600;
+            z-index: 3;
+            left: 250px;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="block-1 block-1"></div>
+    <div class="block-1 block-2"></div>
+    <div class="block-1 block-3"></div>
+    <div class="block-1 block-4"></div>
+</body>
+</html>
