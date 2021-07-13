@@ -1,0 +1,60 @@
+@media screen and (min-width: 768px)  {
+
+    .about,
+    .company,
+    .services {
+        width: 30%;
+        float: left;
+    }
+
+    .content {
+        width: 30%;
+        float: left;
+    }
+    
+    .navigation {
+        width: 30%;
+        float: left;
+    }
+}
+
+@media screen and (min-width : 320px) {
+
+    .about,
+    .company,
+    .services {
+        width: 100%;
+        float: left;
+    }
+
+    .content {
+        width: 100%;
+        float: left;
+    }
+    
+    .navigation {
+        width: 100%;
+        float: left;
+    }
+}   
+
+@media screen and (min-width : 1024px) {
+
+    .about,
+    .company,
+    .services {
+        width: 33%;      
+        min-height: calc(100vh - 500px);
+        float: left;
+    }
+
+    .content {
+        width: 70%;
+        float: left;
+    }
+    
+    .navigation {
+        width: 30%;
+        float: left;
+    }
+}
