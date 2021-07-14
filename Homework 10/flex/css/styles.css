@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+}
+
+:root {
+    --magenta: #cc33cc;
+    --slateblue: #6666ff;
+   }
+
+body {
+    height: 100%;
+    background-color: var(--magenta);
+}
+
+#wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 50px 0 50px;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    text-align: center;    
+}
+
+.main {
+    height: calc(100vh - 100px);
+}
+
+.content {
+    background-color: var(--slateblue);
+    border: 1px solid #000;
+}
+
+.sidebar {
+    background-color: var(--magenta);
+    border: 1px solid #000;
+}

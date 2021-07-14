@@ -1,0 +1,34 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #cc33cc;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 30px 0 30px;
+    position: relative;
+}
+
+.block {
+    border: 1px solid #000;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    
+}
+
+.content {
+    background-color: #6666ff;
+}
+
+.sidebar {
+    background-color: #cc33cc;
+}
