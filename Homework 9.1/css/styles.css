@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    background-color: #eeeeee;
+}
+
+#wrapper {
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    position: relative;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 36px;            
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 20px 0 5px 20px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 20px 0 5px 20px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 5px 0 10px  20px;
+}
+
+p {            
+    padding: 5px 20px 5px 20px;
+}
+
+.information-column{
+    min-height: 350px;
+    background-color: #fff;        
+    margin-bottom: 20px;
+}
+
+.content {
+    min-height: 400px;
+    background-color: #fff;
+}
+
+.sidebar {
+    min-height: 400px;
+    background-color: #fff;      
+    padding: 30px 20px 5px 20px;
+}
+
+.sidebar-item {
+    list-style: none;
+    padding: 20px;
+    background-color: #cccccc;
+}
+
+.sidebar-item:not(:last-child) {
+    border-bottom: 1px solid #fff;
+}

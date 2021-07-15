@@ -1,0 +1,36 @@
+@media screen and (min-width: 768px)  {
+    .information-column,
+    .content,
+    .sidebar {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width : 320px) {
+    .information-column,
+    .content,
+    .sidebar {
+        width: 100%;
+    }
+}   
+
+@media screen and (min-width : 1024px) {    
+    .information-column{
+        width: 32%;
+        float: left;
+    }
+
+    .middle {
+        margin: 0 2% 0 2%;
+    }
+
+    .content {
+        width: 68%;       
+        float: left;
+    }
+
+    .sidebar {   
+        width: 32%;
+        float: left;
+    }
+}
