@@ -1,6 +1,4 @@
-@charset "UTF-8";
-@import url(d:\Hillel ДЗ\Homework 11\css\reset.css);
-@import url(d:\Hillel ДЗ\Homework 11\css\main.css);
+@import url(../css/reset.css);
 html {
   height: 100%;
 }
@@ -21,13 +19,13 @@ body #wrapper {
   background-color: var(--magenta);
 }
 
-body .header {
+body header {
   width: 100%;
   height: 100px;
   text-align: center;
 }
 
-body .main {
+body main {
   height: calc(100vh - 200px);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -36,13 +34,13 @@ body .main {
       flex-wrap: nowrap;
 }
 
-body .main .content {
+body main .content {
   width: 35%;
   background-color: var(--slateblue);
-  border: 1px solid #000;
+  border: px solid #000;
 }
 
-body .main .sidebar {
+body main .sidebar {
   width: 25%;
   margin-left: 5%;
   background-color: var(--magenta);
