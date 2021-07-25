@@ -1,0 +1,253 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+#wrapper {
+  background-color: #66ccff;
+  padding: 30px 30px 0 30px;
+  min-height: 300px;
+}
+
+.flex-container {
+  margin: 0 auto;
+  width: 80px;
+  height: 240px;
+  background-color: #666666;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  vertical-align: middle;
+  padding-top: 10px;
+}
+
+.pilar {
+  margin: 0 auto;
+  width: 24px;
+  height: 68px;
+  background-color: #666666;
+}
+
+.flex-container div {
+  margin: 0 auto;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #333333;
+}
+
+.red {
+  -webkit-animation-name: traffic_light_red;
+          animation-name: traffic_light_red;
+  -webkit-animation-duration: 5.6s;
+          animation-duration: 5.6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes traffic_light_red {
+  0%, 100% {
+    background-color: #ff0000;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  10% {
+    background-color: #ff0000;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  20%, 90% {
+    background-color: #333333;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  30%, 40%, 50%, 60%, 70%, 80% {
+    background-color: #333333;
+    -webkit-animation-duration: .1s;
+            animation-duration: .1s;
+  }
+}
+
+@keyframes traffic_light_red {
+  0%, 100% {
+    background-color: #ff0000;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  10% {
+    background-color: #ff0000;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  20%, 90% {
+    background-color: #333333;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  30%, 40%, 50%, 60%, 70%, 80% {
+    background-color: #333333;
+    -webkit-animation-duration: .1s;
+            animation-duration: .1s;
+  }
+}
+
+.yellow {
+  -webkit-animation-name: traffic_light_yellow;
+          animation-name: traffic_light_yellow;
+  -webkit-animation-duration: 5.6s;
+          animation-duration: 5.6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes traffic_light_yellow {
+  0%, 100% {
+    background-color: #333333;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  10%, 90% {
+    background-color: #ffcc00;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  20% {
+    background-color: #333333;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  30%, 40%, 50%, 60%, 70%, 80% {
+    background-color: #333333;
+    -webkit-animation-duration: .1s;
+            animation-duration: .1s;
+  }
+}
+
+@keyframes traffic_light_yellow {
+  0%, 100% {
+    background-color: #333333;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  10%, 90% {
+    background-color: #ffcc00;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  20% {
+    background-color: #333333;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  30%, 40%, 50%, 60%, 70%, 80% {
+    background-color: #333333;
+    -webkit-animation-duration: .1s;
+            animation-duration: .1s;
+  }
+}
+
+.green {
+  -webkit-animation-name: traffic_light_green;
+          animation-name: traffic_light_green;
+  -webkit-animation-duration: 5.6s;
+          animation-duration: 5.6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes traffic_light_green {
+  0%, 10%, 90%, 100% {
+    background-color: #333333;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  20% {
+    background-color: #00cc00;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  30%, 50%, 70% {
+    background-color: #333333;
+    -webkit-animation-duration: .1s;
+            animation-duration: .1s;
+  }
+  40%, 60%, 80% {
+    background-color: #00cc00;
+    -webkit-animation-duration: .1s;
+            animation-duration: .1s;
+  }
+}
+
+@keyframes traffic_light_green {
+  0%, 10%, 90%, 100% {
+    background-color: #333333;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  20% {
+    background-color: #00cc00;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  30%, 50%, 70% {
+    background-color: #333333;
+    -webkit-animation-duration: .1s;
+            animation-duration: .1s;
+  }
+  40%, 60%, 80% {
+    background-color: #00cc00;
+    -webkit-animation-duration: .1s;
+            animation-duration: .1s;
+  }
+}
+/*# sourceMappingURL=main.css.map */
