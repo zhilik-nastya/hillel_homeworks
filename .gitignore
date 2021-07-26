@@ -8,8 +8,8 @@ lerna-debug.log*
 
 test.html
 
-/node_modules/
-/build/
+node_modules
+build
 yarn.lock
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
