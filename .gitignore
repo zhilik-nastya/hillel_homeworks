@@ -8,7 +8,9 @@ lerna-debug.log*
 
 test.html
 
-node_modules
+/node_modules/
+/build/
+yarn.lock
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
